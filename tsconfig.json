@@ -22,11 +22,11 @@
 //    "moduleResolution": "node",
     "module": "NodeNext",
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/app/*"],
-      "@utils/*": ["./src/app/utils/*"],
-      "@type/*": ["./src/typings/*"]
-    },
+    // "paths": {
+    //   "@/*": ["./src/app/*"],
+    //   "@utils/*": ["./src/app/utils/*"],
+    //   "@type/*": ["./src/typings/*"]
+    // },
 
     //emit https://www.typescriptlang.org/tsconfig#Emit_6246
     "removeComments": true,
@@ -47,6 +47,6 @@
     //Completeness https://www.typescriptlang.org/tsconfig#Completeness_6257
     "skipLibCheck": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "dist", "build", "out", ".vscode", "typings"]
+//  "include": ["src"],
+//  "exclude": ["node_modules", "dist", "build", "out", ".vscode", "typings"]
 }
